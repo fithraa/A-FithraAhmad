@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celerates</title>
+<h3>Belajar JS</h3>
+
+<script>
+document.write("Hi, Welcome to Javascript");
+</script>
+
+<!-- <script src="belajar.js"></script> -->
+
+</head>
+
+<body>
+
+    <script>
+        alert("This is an alert method");
+        confirm("You want to know me more?");
+        prompt("How old are u?");
+    </script>
+
+    <h1>JavaScript Variables</h1>
+    <p>x, y, and z are variables</p>
+    <p id="demo"></p>
+
+    <script>
+        var x = 5;
+        var y = 6;
+        var z = x + y;
+        document.getElementById("demo").innerHTML = "The value of z is: " + z;
+    </script>
+
+<h1>JavaScript Let Variables</h1>
+<p>a, b, and c are variables</p>
+<p id="demo2"></p>
+<script>
+let a = 5;
+let b = 6;
+let c = a + b;
+document.getElementById("demo2").innerHTML = "The value of c is: "
++ c;
+</script>
+
+<h1>JavaScript Const Variables</h1>
+<p>d, e, and f are variables</p>
+<p id="demo3"></p>
+<script>
+const d = 5;
+const e = 6;
+const f = d + e;
+document.getElementById("demo3").innerHTML = "The value of f is: "
++ f;
+</script>
+
+<h1>JavaScript Mixed Variables</h1>
+<p>price1, price2, and total are variables</p>
+<p id="demo4"></p>
+<script>
+const price1 = 5;
+const price2 = 6;
+let total = price1 + price2;
+document.getElementById("demo4").innerHTML = "The total is: " +
+total;
+</script>
+    
+<h1>JavaScript Variables with text values (Strings)</h1>
+<p>Strings are written with quotes.</p>
+<p>Numbers are written without quotes.</p>
+<p id="demo5"></p>
+<script>
+const pi = 3.14;
+let person = "John Doe";
+let answer = "Yes I am!";
+document.getElementById("demo5").innerHTML =
+pi + "<br>" + person + "<br>" + answer;
+</script>
+
+<h1>JavaScript Variables Example</h1>
+
+<script>
+// Menggunakan var
+var g = 10;
+document.write("<p>Nilai g (dengan var): " + g + "</p>");
+// Menggunakan let
+let h = 20;
+document.write("<p>Nilai h (dengan let): " + h + "</p>");
+// Menggunakan const
+const i = 30;
+document.write("<p>Nilai i (dengan const): " + i + "</p>");
+// Cobalah mengubah nilai variabel
+g = 15; // OK
+h = 25; // OK
+ //i = 35; // Error! Karena z adalah konstanta
+document.write("<p>Setelah diubah:</p>");
+document.write("<p>Nilai g: " + g + "</p>");
+document.write("<p>Nilai h: " + h + "</p>");
+document.write("<p>Nilai i: " + i + "</p>");
+</script>
+
+</body>
+</html>
